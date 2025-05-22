@@ -95,6 +95,12 @@ const componentsRouter = {
       component: () => import('@/views/components-demo/drag-kanban'),
       name: 'DragKanbanDemo',
       meta: { title: 'dragKanban' }
+    },
+    {
+      path: 'rich-input',
+      component: () => import('@/views/components-demo/rich-input'),
+      name: 'RichInputDemo',
+      meta: { title: '富文本输入框' }
     }
   ]
 }
